@@ -1,0 +1,39 @@
+<style>
+  :host {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+
+<div class="content" role="main">
+  <h1>User management module</h1>
+  <form>
+    <input type="text" placeholder="Enter first name" /> <br />
+    <input type="text" placeholder="Enter last name" /> <br />
+    <input type="text" placeholder="Enter user name" /> <br />
+    <input type="password" placeholder="Enter password" /> <br /><br />
+    <button style="cursor: pointer; width: 176px">Create</button>
+  </form>
+  <br />
+  <table style="border-collapse: collapse; width: 100%">
+    <tr>
+      <th style="border: 1px solid black">Full name</th>
+      <th style="border: 1px solid black">User name</th>
+      <th style="border: 1px solid black">Actions</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <button style="cursor: pointer">Edit</button
+        ><button style="cursor: pointer">Delete</button>
+      </td>
+    </tr>
+  </table>
+</div>
